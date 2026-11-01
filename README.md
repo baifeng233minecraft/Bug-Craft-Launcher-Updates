@@ -2,9 +2,9 @@
 
 Bug Craft Launcher（PCL macOS 独立移植版）的公开更新源与安装包。
 
-## 最新预览版：v1.1.4-rc.2
+## 最新正式版：v1.1.4
 
-[下载 Mac 构建与完整源码](https://github.com/baifeng233minecraft/pcl-macos-updates/releases/tag/v1.1.4-rc.2)
+[下载 Mac 构建与完整源码](https://github.com/baifeng233minecraft/pcl-macos-updates/releases/tag/v1.1.4)
 
 - 修复浅色模式原生液态玻璃显示，切换深浅外观时即时同步。
 - 修复启用玻璃后顶部菜单栏主题色被冲淡的问题。
@@ -15,9 +15,9 @@ Bug Craft Launcher（PCL macOS 独立移植版）的公开更新源与安装包�
 - Microsoft 登录使用 BCL 自有 AppID 与浏览器 OAuth + PKCE；明确区分应用未获批准和账户/IP 错误。
 - 游戏启动和联机房间须通过官方 Java 版所有权与档案验证，离线与第三方身份不能绕过验证；已保存账号也遵守相同要求。
 
-**重要限制：** BCL 的 Minecraft Services AppID 接入申请已于 2026-11-01 提交，仍在等待官方审核，首次正版登录可能返回 `HTTP 403: Invalid app registration`。本版为手动下载的预览版，不推送到正式版自动更新清单；正式最新版仍是 v1.1.3。Windows 版暂停开发，本次不含 Windows 文件。
+**重要限制：** BCL 的 Minecraft Services AppID 接入申请已于 2026-11-01 提交，目前尚无获批确认，首次正版登录可能返回 `HTTP 403: Invalid app registration`。所有游戏启动均须先联网验证 Java 版所有权；登录或验证失败时无法启动游戏，请了解此限制后更新。本版按维护者要求发布为正式版并推送非强制更新。Windows 版暂停开发，本次不含 Windows 文件。
 
-适用于 Apple Silicon、macOS 14 或更高版本；原生 Liquid Glass 需要 macOS 26 或更高版本。本构建为 ad-hoc 签名，未通过 Apple 公证。发布页附有 SHA-256 校验文件；真正的启动器源码是单独附带的 `BCL-macOS-v1.1.4-rc.2-source.zip`，不是 GitHub 自动生成的更新仓库源码包。先前 rc.1 已撤回为草稿，不再作为公开下载推荐。
+适用于 Apple Silicon、macOS 14 或更高版本；原生 Liquid Glass 需要 macOS 26 或更高版本。本构建为 ad-hoc 签名，未通过 Apple 公证。发布页附有 SHA-256 校验文件；真正的启动器源码是单独附带的 `BCL-macOS-v1.1.4-source.zip`，不是 GitHub 自动生成的更新仓库源码包。正式版内部更新码为 41，构建号为 442。先前 rc.1 仍为撤回草稿，rc.2 保留为历史预览版。
 
 ## v1.1.3 更新介绍
 
