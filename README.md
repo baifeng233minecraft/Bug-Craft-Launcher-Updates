@@ -2,6 +2,21 @@
 
 Bug Craft Launcher（PCL macOS 独立移植版）的公开更新源与安装包。
 
+## 最新预览版：v1.1.4-rc.1
+
+[下载 Mac 构建与完整源码](https://github.com/baifeng233minecraft/pcl-macos-updates/releases/tag/v1.1.4-rc.1)
+
+- 修复浅色模式原生液态玻璃显示，切换深浅外观时即时同步。
+- 修复启用玻璃后顶部菜单栏主题色被冲淡的问题。
+- 取消原生玻璃卡片的多余外层裁剪，保留系统绘制的边缘折射、光照和阴影。
+- 删除登录区长说明文字，正版所有权验证保持生效。
+- Microsoft 登录使用 BCL 自有 AppID 与浏览器 OAuth + PKCE；明确区分应用未获批准和账户/IP 错误。
+- 游戏启动、外部会话导入和联机房间须通过官方 Java 版所有权与档案验证，离线与第三方身份不能绕过验证。
+
+**重要限制：** BCL 的 Minecraft Services AppID 接入申请已于 2026-11-01 提交，仍在等待官方审核，首次正版登录可能返回 `HTTP 403: Invalid app registration`。本版为手动下载的预览版，不推送到正式版自动更新清单；正式最新版仍是 v1.1.3。Windows 版暂停开发，本次不含 Windows 文件。
+
+适用于 Apple Silicon、macOS 14 或更高版本；原生 Liquid Glass 需要 macOS 26 或更高版本。本构建为 ad-hoc 签名，未通过 Apple 公证。发布页附有 SHA-256 校验文件；真正的启动器源码是单独附带的 `BCL-macOS-v1.1.4-rc.1-source.zip`，不是 GitHub 自动生成的更新仓库源码包。
+
 ## v1.1.3 更新介绍
 
 这一版集中改进下载体验、Mod 版本管理、网络测评和界面细节。
