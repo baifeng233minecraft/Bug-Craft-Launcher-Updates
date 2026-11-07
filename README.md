@@ -1,10 +1,12 @@
-# pcl-macos-updates
+# Bug Craft Launcher Updates
 
-Bug Craft Launcher（PCL macOS 独立移植版）的公开更新源与安装包。
+Bug Craft Launcher（BCL）的公开更新源与安装包。
 
 ## 最新正式版：v1.1.4
 
-[下载 Mac 构建与完整源码](https://github.com/baifeng233minecraft/pcl-macos-updates/releases/tag/v1.1.4)
+[下载 Mac 构建与完整源码](https://github.com/baifeng233minecraft/Bug-Craft-Launcher-Updates/releases/tag/v1.1.4)
+
+仓库已更名为 `Bug-Craft-Launcher-Updates`，历史版本、Issues 和下载资产均保留。更新清单暂时保留历史下载路径，供旧版启动器的下载代理识别；GitHub 会将其重定向到新仓库。请勿重新创建同名的旧仓库，以免破坏重定向。
 
 - 修复浅色模式原生液态玻璃显示，切换深浅外观时即时同步。
 - 修复启用玻璃后顶部菜单栏主题色被冲淡的问题。
