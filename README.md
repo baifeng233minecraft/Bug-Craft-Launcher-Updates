@@ -2,11 +2,27 @@
 
 Bug Craft Launcher（BCL）的公开更新源与安装包。
 
-## 最新正式版：v1.1.4
+## 发布检查
 
-[下载 Mac 构建与完整源码](https://github.com/baifeng233minecraft/Bug-Craft-Launcher-Updates/releases/tag/v1.1.4)
+- 每次发布先写清新增、修复、移除内容及兼容限制。GitHub Release 正文和 `latest.json` 的 `notes` 使用同一组变更说明，后者会显示在启动器内。
+- 先上传并核对应用包、源码包与 SHA-256，再更新清单。确认旧版可看到新版本、公开下载的哈希一致，且新版本不会提示重复更新。
+
+## 最新正式版：v1.1.5
+
+[下载 Mac 构建、源码和 SHA-256 校验文件，或查看完整更新介绍](https://github.com/baifeng233minecraft/Bug-Craft-Launcher-Updates/releases/tag/v1.1.5)
+
+- 修复 `⌘3` 不响应，数字快捷键按顶部栏顺序排列，自定义键位会检查冲突。
+- 新增正版皮肤与披风管理和 Air、Pro、Max、Ultra 启动档位；风扇仍由 macOS 管理。
+- 同步系统液态玻璃浓度，调整星光白与深空黑，修复版本及已绑定目录删除。
+- 移除房间联机，保留服务器列表、直连和快捷游戏。本版不附第三方中文模组词库，内置中文别名覆盖会减少。
+
+本次仅更新 Apple Silicon Mac，支持 macOS 14 或更高版本，原生液态玻璃需要 macOS 26 或更高版本。应用为 ad-hoc 签名，未经过 Apple 公证；更新非强制，内部更新码 42，构建号 443。启动游戏仍须联网验证 Minecraft Java 版所有权。
 
 仓库已更名为 `Bug-Craft-Launcher-Updates`，历史版本、Issues 和下载资产均保留。更新清单暂时保留历史下载路径，供旧版启动器的下载代理识别；GitHub 会将其重定向到新仓库。请勿重新创建同名的旧仓库，以免破坏重定向。
+
+## v1.1.4 历史更新
+
+[下载 v1.1.4 Mac 构建与源码](https://github.com/baifeng233minecraft/Bug-Craft-Launcher-Updates/releases/tag/v1.1.4)
 
 - 修复浅色模式原生液态玻璃显示，切换深浅外观时即时同步。
 - 修复启用玻璃后顶部菜单栏主题色被冲淡的问题。
