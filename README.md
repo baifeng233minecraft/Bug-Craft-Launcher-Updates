@@ -7,7 +7,22 @@ Bug Craft Launcher（BCL）的公开更新源与安装包。
 - 每次发布先写清新增、修复、移除内容及兼容限制。GitHub Release 正文和 `latest.json` 的 `notes` 使用同一组变更说明，后者会显示在启动器内。
 - 先上传并核对应用包、源码包与 SHA-256，再更新清单。确认旧版可看到新版本、公开下载的哈希一致，且新版本不会提示重复更新。
 
-## 最新正式版：v1.1.5
+## 最新正式版：v1.1.6
+
+[下载 Mac 构建、真实启动器源码和 SHA-256 校验文件，或查看详细更新介绍](https://github.com/baifeng233minecraft/Bug-Craft-Launcher-Updates/releases/tag/v1.1.6)
+
+- 新增本地 BCL 账户、可选密码和浏览器验证的 Minecraft Java 身份绑定。用户名取 Java 玩家名，绑定按 UUID 核对；资料不跨设备同步。
+- 新注册只选男或女；没有保存过设置时默认使用枫晴蓝或樱糖粉，已有主题保留。
+- BCL Pro 改为作者手动发放密钥、本机离线激活。入口在「设置 → 启动」，赞助按钮打开[作者爱发电主页](https://ifdian.net/a/baifeng233)，不查订单、不要求爱发电授权，也不自动发货。
+- **功能范围调整：Ultra 与实验室改为 Pro 功能。** 普通版保留 Air、Pro、Max。激活重启后默认显示 BCL Pro 并隐藏赞助卡片；游戏所有权验证不变。
+- 详细介绍随应用打包，升级或手动安装后均可显示，支持滚动并继续遵循更新介绍开关；帮助手册同步更新。
+- 共用激活密钥不能防止分享或客户端被修改，不提供云端会员同步、远程撤销或绝对防伪。
+
+本次仅更新 Apple Silicon Mac，最低 macOS 14；原生液态玻璃需 macOS 26 或更新系统。非强制更新，内部更新码 43，构建 444，仍采用 SHA-256 校验；ad-hoc 签名，未经过 Apple 公证。不包含 Windows 构建或第三方中文模组词库。更新不会主动删除既有实例或账户。
+
+Release 的 `BCL-macOS-v1.1.6-source.zip` 才是真实启动器源码，GitHub 自动生成的 Source code 只包含此更新清单仓库。先验签并核对发布包，再推送 `latest.json`。
+
+## v1.1.5 历史更新
 
 [下载 Mac 构建、源码和 SHA-256 校验文件，或查看完整更新介绍](https://github.com/baifeng233minecraft/Bug-Craft-Launcher-Updates/releases/tag/v1.1.5)
 
