@@ -7,7 +7,18 @@ Bug Craft Launcher（BCL）的公开更新源与安装包。
 - 每次发布先写清新增、修复、移除内容及兼容限制。GitHub Release 正文和 `latest.json` 的 `notes` 使用同一组变更说明，后者会显示在启动器内。
 - 先上传并核对应用包、源码包与 SHA-256，再更新清单。确认旧版可看到新版本、公开下载的哈希一致，且新版本不会提示重复更新。
 
-## 最新正式版：v1.1.7
+## 最新正式版：v1.1.8
+
+[下载 Mac 更新包、对应源码和 SHA-256 校验文件，或查看详细更新介绍](https://github.com/baifeng233minecraft/Bug-Craft-Launcher-Updates/releases/tag/v1.1.8)
+
+- 默认配置储存位置不变。「设置 → 其他 → 启动器」可改为启动器旁边或自选文件夹；切换先备份目标旧配置，重启后保留选择。
+- 不同 BCL 副本可用不同配置目录；登录令牌、API Key、存档和素材不随普通配置迁移。
+- 修复 Java 自动选择在后台扫描或重启后被固定路径覆盖的问题。
+- 新增实验性 Pure Metal 原生渲染接入，仅支持 Minecraft 26.3 与兼容 Fabric/ARM64 Java；在启用前请查看模组冲突说明，不保证提高帧率。
+
+仅发布 Apple Silicon Mac（macOS 14+），非强制更新，内部更新码 45、构建 451。仍使用 SHA-256 校验，应用为 ad-hoc 签名、未经 Apple 公证；不含 Windows 构建或第三方中文模组词库。
+
+## v1.1.7 历史更新
 
 [下载 Mac 补丁、真实启动器源码和 SHA-256 校验文件，或查看详细更新介绍](https://github.com/baifeng233minecraft/Bug-Craft-Launcher-Updates/releases/tag/v1.1.7)
 
